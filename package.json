@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@internationalized/date": "^3.5.3",
+    "@vee-validate/zod": "^4.12.6",
+    "class-variance-authority": "^0.7.0",
+    "embla-carousel-vue": "^8.0.4",
+    "lucide-vue-next": "^0.378.0",
+    "nuxt": "^3.11.2",
+    "radix-vue": "^1.7.3",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.3.0",
+    "tailwind-variants": "^0.2.1",
+    "vee-validate": "^4.12.6",
+    "vue": "^3.4.21",
+    "vue-preview-imgs": "^2.0.1",
+    "vue-router": "^4.3.0",
+    "zod": "^3.23.6"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.2.1",
+    "@nuxtjs/color-mode": "^3.4.1",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@vueuse/nuxt": "^10.9.0",
+    "nuxt-icon": "^0.6.10",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.4.5"
+  }
+}
