@@ -2,7 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   // settings outpage on docs folder 
-  buildDir:'docs',
+  build:{
+    dir: 'docs'
+  },
+  // buildDir:'docs',
   modules: [
     "@nuxtjs/tailwindcss",
     "shadcn-nuxt",
