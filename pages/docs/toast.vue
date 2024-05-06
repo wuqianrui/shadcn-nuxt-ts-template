@@ -47,9 +47,10 @@
 </template>
 
 <script lang="ts" setup>
-const { toast } = useToast()
 import { useToast } from '@/components/ui/toast/use-toast'
 import { ToastAction } from '@/components/ui/toast'
+
+const { toast } = useToast()
 
 function showToast() {
   toast({
