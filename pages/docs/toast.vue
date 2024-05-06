@@ -47,7 +47,7 @@
 </template>
 
 <script lang="ts" setup>
-import { toast , useToast } from '@/components/ui/toast/utils.ts'
+import { toast , useToast } from '@/components/ui/toast/index'
 import { ToastAction } from '@/components/ui/toast'
 
 // const { toast } = useToast()
