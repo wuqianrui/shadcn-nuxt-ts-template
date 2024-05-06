@@ -5,7 +5,7 @@
     <div class="w-8"/>
     <a href="https://ui.nuxt.com/components/chip"  target="_blank" class="text-blue-500 hover:underline">api docs</a>
   </div>
-  <div class="preview flex min-h-[50px] w-auto justify-center p-10 items-center space-x-4 bg-gray-100 rounded-lg mx-10">
+  <div class="preview flex min-h-[50px] w-auto justify-center p-10 items-center space-x-4 bg-blue-100 rounded-lg mx-10">
     <!-- fill component -->
     <!-- avatar 01 -->
     <UiChip size="md" position="bottom-left" variant="warning">
@@ -43,9 +43,11 @@
     </UiAvatar>
     </UiChip>
     <!-- avatar 04 -->
+    <UiChip size="md" position="bottom-right" variant="success">
     <UiAvatar>
     <UiAvatarFallback>JD</UiAvatarFallback>
     </UiAvatar>
+    </UiChip>
     <!-- fill component -->
   </div>
 

@@ -2,6 +2,10 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+# capture
+
+![](/assets/image/1715004950134.png)
+
 ## Setup
 
 Make sure to install the dependencies:
@@ -12,9 +16,6 @@ npm install
 
 # pnpm
 pnpm install
-
-# yarn
-yarn install
 
 ```
 
@@ -28,9 +29,6 @@ npm run dev
 
 # pnpm
 pnpm run dev
-
-# yarn
-yarn dev
 
 ```
 

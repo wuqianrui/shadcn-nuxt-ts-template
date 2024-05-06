@@ -5,7 +5,7 @@
     <div class="w-8"/>
     <a href=""  target="_blank" class="text-blue-500 hover:underline">api docs</a>
   </div>
-  <div class="preview flex min-h-[50px] w-auto justify-center p-10 items-center space-x-4 bg-gray-100 rounded-lg mx-10">
+  <div class="preview flex min-h-[50px] w-auto justify-center p-10 items-center space-x-4 bg-blue-100 rounded-lg mx-10">
     <!-- fill component -->
 
     <!-- fill component -->
