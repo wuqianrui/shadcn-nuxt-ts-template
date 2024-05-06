@@ -5,6 +5,8 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 # capture
 
 ![](/assets/image/1715004950134.png)
+![](/assets/image/1715004700263.png)
+![](/assets/image/1715004482754.png)
 
 ## Setup
 

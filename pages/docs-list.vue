@@ -39,9 +39,9 @@
   {"path":"tags-input","name":"tags-input"},{"path":"textarea","name":"textarea"},{"path":"toast","name":"toast"},
   {"path":"toggle","name":"toggle"},{"path":"toggle-group","name":"toggle-group"},
   {"path":"tooltip","name":"tooltip"},
-  {"path":"tool-lucide","name":"🛠️ Lucide Icon"},
-  {"path":"dropfile","name":"Ui-Thing Dropfile"},
-  {"path":"chip","name":"🪼 Nuxt UI Chip"}
+  {"path":"tool-lucide","name":"🛠️ Lucide Icon ✅"},
+  {"path":"dropfile","name":"Ui-Thing Dropfile ✅"},
+  {"path":"chip","name":"🪼 Nuxt UI Chip ✅"}
   ]
   
 </script>
