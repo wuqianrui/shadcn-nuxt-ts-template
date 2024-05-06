@@ -12,7 +12,7 @@
 
   <div class="preview flex min-h-[50px] w-auto justify-center p-10 items-center space-x-4 bg-gray-100 rounded-lg mx-10">
     <!-- 这里填写组件 -->
-    <UiButton 
+    <!-- <UiButton 
     variant="outline" @click="showToast">Add to calendar
    </UiButton>
 
@@ -38,7 +38,7 @@
 
     <UiButton 
     variant="outline" @click="showVariantToast('error')">error
-   </UiButton>
+   </UiButton> -->
 
 
     <!-- 这里填写组件 -->
@@ -47,71 +47,71 @@
 </template>
 
 <script lang="ts" setup>
-import { toast , useToast } from '../../components/ui/toast/use-toast.ts'
-import { ToastAction } from '@/components/ui/toast'
+// import { toast , useToast } from '../../components/ui/toast/use-toast.ts'
+// import { ToastAction } from '@/components/ui/toast'
 
 // const { toast } = useToast()
 
-function showToast() {
-  toast({
-    title: 'Scheduled: Catch up',
-    description: 'Friday, February 10, 2023 at 5:57 PM',
-  })
-}
+// function showToast() {
+//   toast({
+//     title: 'Scheduled: Catch up',
+//     description: 'Friday, February 10, 2023 at 5:57 PM',
+//   })
+// }
 
-function showToastWithAction(){
-  toast({
-        title: 'Uh oh! Something went wrong.',
-        description: 'There was a problem with your request.',
-        action: h(ToastAction, {
-          altText: 'Try again',
-        }, {
-          default: () => { return 'Try again' },
-        }),
-      });
-}
+// function showToastWithAction(){
+//   toast({
+//         title: 'Uh oh! Something went wrong.',
+//         description: 'There was a problem with your request.',
+//         action: h(ToastAction, {
+//           altText: 'Try again',
+//         }, {
+//           default: () => { return 'Try again' },
+//         }),
+//       });
+// }
 
-function showVariantToastWithAction(){
-     toast({
-        title: 'Uh oh! Something went wrong.',
-        description: 'There was a problem with your request.',
-        variant: 'destructive',
-        action: h(ToastAction, {
-          altText: 'Try again',
-        }, {
-          default: () => { return 'Try again' },
-        }),
-      });
-}
+// function showVariantToastWithAction(){
+//      toast({
+//         title: 'Uh oh! Something went wrong.',
+//         description: 'There was a problem with your request.',
+//         variant: 'destructive',
+//         action: h(ToastAction, {
+//           altText: 'Try again',
+//         }, {
+//           default: () => { return 'Try again' },
+//         }),
+//       });
+// }
 
-function showVariantToast(type:string){
-    toast({
-        title: 'Type of toast .',
-        description: 'There was a problem with your request.',
-        icon: getToasticon(type),
-        variant:   `${type}`,
-        action: h(ToastAction, {
-          altText: 'Try again',
-        }, {
-          default: () => { return 'Try again' },
-        }),
-      });
-}
+// function showVariantToast(type:string){
+//     toast({
+//         title: 'Type of toast .',
+//         description: 'There was a problem with your request.',
+//         icon: getToasticon(type),
+//         variant:   `${type}`,
+//         action: h(ToastAction, {
+//           altText: 'Try again',
+//         }, {
+//           default: () => { return 'Try again' },
+//         }),
+//       });
+// }
 
-const getToasticon = (type: string) => {
-    switch (type) {
-      case "success":
-        return "lucide:badge-check";
-      case "info":
-        return "lucide:badge-info";
-      case "warning":
-        return "lucide:badge-alert";
-      case "destructive":
-        return "lucide:badge-x";
-      default:
-        return "lucide:badge-check";
-    }
-  };
+// const getToasticon = (type: string) => {
+//     switch (type) {
+//       case "success":
+//         return "lucide:badge-check";
+//       case "info":
+//         return "lucide:badge-info";
+//       case "warning":
+//         return "lucide:badge-alert";
+//       case "destructive":
+//         return "lucide:badge-x";
+//       default:
+//         return "lucide:badge-check";
+//     }
+//   };
 
 </script>
 
