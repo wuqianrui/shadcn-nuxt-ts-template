@@ -48,54 +48,54 @@
 
 <script lang="ts" setup>
 // import { toast , useToast } from '@/components/ui/toast'
-import { ToastAction , toast , useToast } from '@/components/ui/toast'
+// import { ToastAction , toast , useToast } from '@/components/ui/toast'
 
 // const { toast } = useToast()
 
 function showToast() {
-  toast({
-    title: 'Scheduled: Catch up',
-    description: 'Friday, February 10, 2023 at 5:57 PM',
-  })
+  // toast({
+  //   title: 'Scheduled: Catch up',
+  //   description: 'Friday, February 10, 2023 at 5:57 PM',
+  // })
 }
 
 function showToastWithAction(){
-  toast({
-        title: 'Uh oh! Something went wrong.',
-        description: 'There was a problem with your request.',
-        action: h(ToastAction, {
-          altText: 'Try again',
-        }, {
-          default: () => { return 'Try again' },
-        }),
-      });
+  // toast({
+  //       title: 'Uh oh! Something went wrong.',
+  //       description: 'There was a problem with your request.',
+  //       action: h(ToastAction, {
+  //         altText: 'Try again',
+  //       }, {
+  //         default: () => { return 'Try again' },
+  //       }),
+  //     });
 }
 
 function showVariantToastWithAction(){
-     toast({
-        title: 'Uh oh! Something went wrong.',
-        description: 'There was a problem with your request.',
-        variant: 'destructive',
-        action: h(ToastAction, {
-          altText: 'Try again',
-        }, {
-          default: () => { return 'Try again' },
-        }),
-      });
+    //  toast({
+    //     title: 'Uh oh! Something went wrong.',
+    //     description: 'There was a problem with your request.',
+    //     variant: 'destructive',
+    //     action: h(ToastAction, {
+    //       altText: 'Try again',
+    //     }, {
+    //       default: () => { return 'Try again' },
+    //     }),
+    //   });
 }
 
 function showVariantToast(type:string){
-    toast({
-        title: 'Type of toast .',
-        description: 'There was a problem with your request.',
-        icon: getToasticon(type),
-        variant:   `${type}`,
-        action: h(ToastAction, {
-          altText: 'Try again',
-        }, {
-          default: () => { return 'Try again' },
-        }),
-      });
+    // toast({
+    //     title: 'Type of toast .',
+    //     description: 'There was a problem with your request.',
+    //     icon: getToasticon(type),
+    //     variant:   `${type}`,
+    //     action: h(ToastAction, {
+    //       altText: 'Try again',
+    //     }, {
+    //       default: () => { return 'Try again' },
+    //     }),
+    //   });
 }
 
 const getToasticon = (type: string) => {
